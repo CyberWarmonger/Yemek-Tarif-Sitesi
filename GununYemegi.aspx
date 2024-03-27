@@ -26,14 +26,19 @@
                     </td>
                 </tr>
                 <tr>
-                    <td><strong>PUAN</strong>:
-                        <asp:Label ID="Label11" runat="server" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
-                        &nbsp;- <strong>Tarih</strong>:
-                        <asp:Label ID="Label13" runat="server" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
-                    </td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
+                    <td>
+                        <table class="auto-style1">
+                            <tr>
+                                <td style="text-align: left"><strong>PUAN</strong>:&nbsp;&nbsp;<asp:Label ID="Label11" runat="server" Text='<%# Eval("GununYemegiPuan") %>'></asp:Label>
+                                </td>
+                                <td style="text-align: right"><strong>Tarih</strong>:&nbsp;<asp:Label ID="Label13" runat="server" Text='<%# Eval("GununYemegiTarih") %>'></asp:Label>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
             </table>
         </ItemTemplate>
