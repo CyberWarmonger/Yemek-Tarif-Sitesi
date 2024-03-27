@@ -8,7 +8,7 @@
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table class="auto-style1">
+    <table class="auto-style1" style="background-color: #3399FF">
     <tr>
         <td>&nbsp;</td>
         <td>&nbsp;</td>

@@ -35,7 +35,7 @@
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px; background-color: #FFFFFF;"></div>
         <div style="margin-left: 300px; width: 700px; height: auto; background-color: #FFFFFF;">
-            <div style="width: 200px; float: left; height: auto; background-color: #00ffff;">
+            <div style="width: 200px; float: left; height: auto; background-color: #3399FF;">
                 KATEGORILER<br />
                 <br />
                 <asp:DataList ID="DataList1" runat="server" Width="200px">
@@ -47,7 +47,7 @@
                     </ItemTemplate>
                 </asp:DataList>
             </div>
-            <div style="width: 450px; float: left; height: auto; margin-left: 50px; background-color: #00ffff;">
+            <div style="width: 450px; float: left; height: auto; margin-left: 50px; background-color: #3399FF;">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
 
