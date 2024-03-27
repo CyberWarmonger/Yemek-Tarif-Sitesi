@@ -52,7 +52,7 @@
     <tr>
         <td>&nbsp;</td>
         <td>
-            <asp:Button ID="BtnTarifOner" runat="server" BackColor="#FF0066" Height="40px" style="font-weight: 700; font-style: italic" Text="Tarif Oner" Width="150px" />
+            <asp:Button ID="BtnTarifOner" runat="server" BackColor="#FF0066" Height="40px" style="font-weight: 700; font-style: italic" Text="Tarif Oner" Width="150px" OnClick="BtnTarifOner_Click" />
         </td>
     </tr>
 </table>
