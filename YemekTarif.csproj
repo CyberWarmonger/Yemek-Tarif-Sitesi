@@ -106,8 +106,8 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="kullanici.css" />
     <Content Include="resimler\soslu-tavuk-one-cikann.png" />
-    <Content Include="StyleSheet1.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />

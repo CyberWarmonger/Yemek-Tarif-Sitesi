@@ -7,19 +7,19 @@
         .auto-style3 {
             height: 28px;
         }
-        .auto-style4 {
-            width: 100%;
-        }
-        .auto-style5 {
-            height: 26px;
-            margin-left: 40px;
-        }
-        .auto-style6 {
-            height: 26px;
-            font-weight: bold;
-            text-align: right;
-            margin-left: 40px;
-        }
+    .auto-style4 {
+        width: 100%;
+    }
+    .auto-style5 {
+        height: 26px;
+        margin-left: 40px;
+    }
+    .auto-style6 {
+        height: 26px;
+        font-weight: bold;
+        text-align: right;
+        margin-left: 40px;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -70,9 +70,9 @@
             <tr>
                 <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="font-weight: 700" Text="Yorum Yap" Width="200px" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="font-weight: 700" Text="Yorum Yap" Width="200px" CssClass="fb8" />
                 </td>
             </tr>
         </table>
-    </asp:Panel>
+</asp:Panel>
 </asp:Content>
