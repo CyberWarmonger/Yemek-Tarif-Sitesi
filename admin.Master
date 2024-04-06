@@ -31,25 +31,25 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>Kategoriler</td>
+                        <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx"> Kategoriler </a></td>
                     </tr>
                     <tr>
-                        <td>Yemekler</td>
+                        <td style="border: thin solid #FFFFFF">Yemekler</td>
                     </tr>
                     <tr>
-                        <td>Yorumlar</td>
+                        <td style="border: thin solid #FFFFFF">Yorumlar</td>
                     </tr>
                     <tr>
-                        <td>Mesajlar</td>
+                        <td style="border: thin solid #FFFFFF">Mesajlar</td>
                     </tr>
                     <tr>
-                        <td>Gunun Yemegi</td>
+                        <td style="border: thin solid #FFFFFF">Gunun Yemegi</td>
                     </tr>
                     <tr>
-                        <td>Oneriler</td>
+                        <td style="border: thin solid #FFFFFF">Oneriler</td>
                     </tr>
                     <tr>
-                        <td>Hakkimizda</td>
+                        <td style="border: thin solid #FFFFFF">Hakkimizda</td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
