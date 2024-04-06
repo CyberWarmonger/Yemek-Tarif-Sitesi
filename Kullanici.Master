@@ -35,12 +35,13 @@
         <div style="margin-left: 300px; width: 700px; height: 20px; background-color: #FFFFFF;"></div>
         <div style="margin-left: 300px; width: 700px; height: auto; background-color: #FFFFFF;">
             <div style="width: 200px; float: left; height: auto; background-color: #3399FF;">
-                KATEGORILER<br />
+                <strong>KATEGORILER<br />
                 <br />
+                </strong>
                 <asp:DataList ID="DataList1" runat="server" Width="200px">
                     <ItemTemplate>
                         <div style="border: thin solid #FF0000">
-                            <asp:Label ID="Label1" runat="server" ForeColor="Black" Text='<%# Eval("KategoriAd") %>'></asp:Label>
+                           <a href="KategoriDetay.aspx?Kategoriid=<%#Eval("kategoriid") %>"><asp:Label ID="Label1" runat="server" ForeColor="Black" Text='<%# Eval("KategoriAd") %>' style="font-weight: 700"></asp:Label></a> 
                             &nbsp;(<asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
                             )</div>
                     </ItemTemplate>

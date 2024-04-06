@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanici.Master" AutoEventWireup="true" CodeBehind="AnaSayfa.aspx.cs" Inherits="YemekTarif.AnaSayfa" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanici.Master" AutoEventWireup="true" CodeBehind="KategoriDetay.aspx.cs" Inherits="YemekTarif.KategoriDetay" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
+
     .auto-style2 {
         width: 100%;
     }
 </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p>
     <asp:DataList ID="DataList2" runat="server" Width="448px">
         <ItemTemplate>
             <table class="auto-style2">
@@ -41,5 +41,4 @@
             </table>
         </ItemTemplate>
     </asp:DataList>
-</p>
 </asp:Content>
