@@ -101,7 +101,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Banner\administration-word-concepts-banner-business-and-corporate-management-organizational-workflow-presentation-website-isolated-lettering-typography-with-linear-icons-outline-illustration-vector.jpg" />
     <Content Include="Banner\images.jpg" />
     <Content Include="Banner\italian-foods-website-header-image.jpg" />
     <Content Include="Banner\popular-food-meal-website-header.jpg" />
@@ -118,6 +120,20 @@
     <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="AnaSayfa.aspx.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -185,6 +201,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="Kullanici.Master" />
+    <Content Include="admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

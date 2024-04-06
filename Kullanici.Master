@@ -22,7 +22,7 @@
             <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/Banner/popular-food-meal-website-header.jpg" Width="698px" />
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px; background-color: #FFFFFF;"></div>
-        <div style="margin-left: 300px; width: 700px; height: 39px; background-color: #b200ff; text-align: center; font-weight: 700;">
+        <div style="margin-left: 300px; width: 700px; height: 39px; background-color: #3399FF; text-align: center; font-weight: 700;">
             <table align="center" class="auto-style1">
                 <tr>
                     <td><a href="AnaSayfa.aspx">Ana Sayfa </a></td>

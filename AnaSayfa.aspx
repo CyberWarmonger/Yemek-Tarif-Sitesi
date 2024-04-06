@@ -12,10 +12,10 @@
         <ItemTemplate>
             <table class="auto-style2">
                 <tr>
-                    <td style="background-color: #9900FF">
+                    <td style="background-color: #ff0000">
 
 
-                       <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %> ">  <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large" Text='<%# Eval("YemekAd") %>'></asp:Label></a>
+                       <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %> ">  <asp:Label ID="Label3" runat="server" style="font-weight: 700; font-size: x-large" Text='<%# Eval("YemekAd") %>' ForeColor="#0066FF"></asp:Label></a>
 
 
                     </td>
