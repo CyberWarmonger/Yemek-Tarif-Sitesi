@@ -102,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Banner\images.jpg" />
+    <Content Include="Banner\italian-foods-website-header-image.jpg" />
+    <Content Include="Banner\popular-food-meal-website-header.jpg" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />

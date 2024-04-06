@@ -19,6 +19,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #9900FF;">
+            <asp:Image ID="Image1" runat="server" Height="148px" ImageUrl="~/Banner/popular-food-meal-website-header.jpg" Width="698px" />
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px; background-color: #FFFFFF;"></div>
         <div style="margin-left: 300px; width: 700px; height: 39px; background-color: #b200ff; text-align: center; font-weight: 700;">
