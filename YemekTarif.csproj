@@ -111,6 +111,7 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="KategoriAdminDetay.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="kullanici.css" />
@@ -169,6 +170,13 @@
     </Compile>
     <Compile Include="iletisim.aspx.designer.cs">
       <DependentUpon>iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KategoriAdminDetay.aspx.cs">
+      <DependentUpon>KategoriAdminDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KategoriAdminDetay.aspx.designer.cs">
+      <DependentUpon>KategoriAdminDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="KategoriDetay.aspx.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
