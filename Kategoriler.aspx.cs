@@ -45,5 +45,13 @@ namespace YemekTarif
         {
             Panel5.Visible = false;
         }
+
+        protected void BtnEkle_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("Insert Into tbl_Kategoriler (KategoriAd) values(@p1)",bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1",TextBox1.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
     }
 }
