@@ -19,6 +19,9 @@
         .auto-style7 {
             font-weight: bold;
         }
+        .auto-style8 {
+            text-align: right;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -76,20 +79,33 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Kategori Ad:</td>
+                <td class="auto-style8"><strong>Yemek Ad:</strong></td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="200px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>Kategori Resmi:</td>
+                <td class="auto-style8"><strong>Yemek Malzemeler:</strong></td>
                 <td>
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server" Height="100px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style8"><strong>Yemek Tarif:</strong></td>
+                <td>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="200px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style8"><strong>Kategori:</strong></td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="275px">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td><strong>
+                <td class="auto-style3"><strong>
                     <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style7" Text="Ekle" Width="100px" />
                     </strong></td>
             </tr>

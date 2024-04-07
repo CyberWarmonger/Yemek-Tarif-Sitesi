@@ -18,6 +18,17 @@ namespace YemekTarif
             SqlDataReader dr = komut.ExecuteReader();
             DataList1.DataSource = dr;
             DataList1.DataBind();
+
+            //Kategori Listesi
+
+            SqlCommand komut2 = new SqlCommand("select * from tbl_kategoriler", bgl.baglanti());
+            SqlDataReader dr2 = komut2.ExecuteReader();
+
+            DropDownList1.DataTextField = "KategoriAd";
+            DropDownList1.DataValueField = "Kategoriid";
+
+            DropDownList1.DataSource = dr2;
+            DropDownList1.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
