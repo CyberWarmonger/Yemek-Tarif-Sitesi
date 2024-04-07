@@ -47,7 +47,7 @@
                             <a href="KategoriAdminDetay.aspx?kategoriid=<%#Eval("kategoriid") %>"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/resimler/images.png" style="text-align: left" Width="30px" /></a> 
                         </td>
                         <td class="auto-style3">
-                            <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/6861362.png" Width="30px" style="text-align: left" />
+                          <a href="Kategoriler.aspx?Kategoriid=<%#Eval("kategoriid") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/6861362.png" Width="30px" style="text-align: left" /></a>  
                         </td>
                     </tr>
                 </table>
