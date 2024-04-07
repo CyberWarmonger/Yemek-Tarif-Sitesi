@@ -47,7 +47,7 @@
                             <asp:Label ID="Label1" runat="server" style="font-size: large; text-align: center;" Text='<%# Eval("YemekAd") %>'></asp:Label>
                         </td>
                         <td class="auto-style3">
-                            <a href="KategoriAdminDetay.aspx?kategoriid=<%#Eval("kategoriid") %>"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/resimler/images.png" style="text-align: left" Width="30px" /></a> 
+                            <a href="YemekDuzenle.aspx?Yemekid=<%#Eval("yemekid") %>"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/resimler/images.png" style="text-align: left" Width="30px" /></a> 
                         </td>
                         <td class="auto-style3">
                           <a href="Kategoriler.aspx?Kategoriid=<%#Eval("kategoriid") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/6861362.png" Width="30px" style="text-align: left" /></a>  
