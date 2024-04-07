@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="AdminYemekler.aspx" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Banner\administration-word-concepts-banner-business-and-corporate-management-organizational-workflow-presentation-website-isolated-lettering-typography-with-linear-icons-outline-illustration-vector.jpg" />
     <Content Include="Banner\images.jpg" />
@@ -137,6 +138,13 @@
     </Compile>
     <Compile Include="admin.Master.designer.cs">
       <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AdminYemekler.aspx.cs">
+      <DependentUpon>AdminYemekler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminYemekler.aspx.designer.cs">
+      <DependentUpon>AdminYemekler.aspx</DependentUpon>
     </Compile>
     <Compile Include="AnaSayfa.aspx.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
