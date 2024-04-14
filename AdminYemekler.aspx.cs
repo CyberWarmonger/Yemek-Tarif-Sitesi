@@ -61,12 +61,20 @@ namespace YemekTarif
 
         protected void BtnEkle_Click(object sender, EventArgs e)
         {
+            //yemek ekleme
             SqlCommand komut = new SqlCommand("insert into tbl_yemekler (yemekad, yemekmalzeme, yemektarif, kategoriid) values (@p1,@p2,@p3,@p4)",bgl.baglanti());
             komut.Parameters.AddWithValue("@p1", TextBox1.Text);
             komut.Parameters.AddWithValue("@p2", TextBox2.Text);
             komut.Parameters.AddWithValue("@p3", TextBox3.Text);
             komut.Parameters.AddWithValue("@p4", DropDownList1.SelectedValue);
             komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+            //kategori artirma
+
+            SqlCommand komut2 = new SqlCommand("update tbl_kategoriler set kategoriadet=kategoriadet+1 where kategoriid=@p1", bgl.baglanti());
+            komut2.Parameters.AddWithValue("@p1", DropDownList1.SelectedValue);
+            komut2.ExecuteNonQuery();
             bgl.baglanti().Close();
         }
     }
