@@ -10,6 +10,9 @@ namespace YemekTarif
     public partial class AdminYemekler : System.Web.UI.Page
     {
         sqlsinif bgl=new sqlsinif();
+        string islem = "";
+        string id = "";
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             Panel2.Visible = false;
@@ -17,6 +20,8 @@ namespace YemekTarif
 
             if (Page.IsPostBack == false)
             {
+                id = Request.QueryString["yemekid"];
+                islem = Request.QueryString["islem"];
                 //Kategori Listesi
                 SqlCommand komut2 = new SqlCommand("select * from tbl_kategoriler", bgl.baglanti());
                 SqlDataReader dr2 = komut2.ExecuteReader();
@@ -35,7 +40,13 @@ namespace YemekTarif
             DataList1.DataSource = dr;
             DataList1.DataBind();
 
-            
+            if (islem == "sil")
+            {
+                SqlCommand komut2 = new SqlCommand("delete from tbl_yemekler where yemekid=@p1",bgl.baglanti());
+                komut2.Parameters.AddWithValue("@p1", id);
+                komut2.ExecuteNonQuery();
+                bgl.baglanti().Close();
+            }
 
         }
 
