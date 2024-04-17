@@ -34,7 +34,7 @@
         </table>
     </asp:Panel>
         <asp:Panel ID="Panel2" runat="server">
-            <asp:DataList ID="DataList3" runat="server" Width="448px">
+            <asp:DataList ID="DataList3" runat="server" Width="448px" OnSelectedIndexChanged="DataList3_SelectedIndexChanged">
                 <ItemTemplate>
                     <table class="auto-style1">
                         <tr>

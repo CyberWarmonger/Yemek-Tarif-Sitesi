@@ -55,5 +55,10 @@ namespace YemekTarif
         {
             Panel4.Visible = false;
         }
+
+        protected void DataList3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
