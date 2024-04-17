@@ -110,6 +110,7 @@
     <Content Include="Banner\popular-food-meal-website-header.jpg" />
     <Content Include="Global.asax" />
     <Content Include="GununYemegi.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriAdminDetay.aspx" />
@@ -119,6 +120,7 @@
     <Content Include="Mesajlar.aspx" />
     <Content Include="resimler\6861362.png" />
     <Content Include="resimler\blog-ile-para-nasil-kazanilir.png" />
+    <Content Include="resimler\chose.png" />
     <Content Include="resimler\images.png" />
     <Content Include="resimler\indir.png" />
     <Content Include="resimler\soslu-tavuk-one-cikann.png" />
@@ -169,6 +171,13 @@
     </Compile>
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkimizda.aspx.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>
