@@ -49,7 +49,7 @@
                         <td style="border: thin solid #FFFFFF"><a href="Tarifler.aspx"> Oneriler</a></td>
                     </tr>
                     <tr>
-                        <td style="border: thin solid #FFFFFF">Hakkimizda</td>
+                        <td style="border: thin solid #FFFFFF"><a href="HakkimizdaAdmin.aspx">Hakkimizda</a> </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
