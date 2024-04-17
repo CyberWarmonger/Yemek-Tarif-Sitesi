@@ -10,6 +10,10 @@
         .auto-style4 {
             font-weight: bold;
         }
+        .auto-style5 {
+            font-weight: bold;
+            background-color: #FF0006;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -47,6 +51,12 @@
             <td>&nbsp;</td>
             <td class="auto-style2"><strong>
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style4" Text="Guncelle" Width="250px" OnClick="Button1_Click" />
+                </strong></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style2"><strong>
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style5" Text="Gunun Yemegi Sec" Width="250px" OnClick="Button2_Click" />
                 </strong></td>
         </tr>
     </table>
