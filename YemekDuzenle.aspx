@@ -48,6 +48,12 @@
             </td>
         </tr>
         <tr>
+            <td class="auto-style3"><strong>Yemek Resim:</strong></td>
+            <td class="auto-style2">
+                <asp:FileUpload ID="FileUpload1" runat="server" />
+            </td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td class="auto-style2"><strong>
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style4" Text="Guncelle" Width="250px" OnClick="Button1_Click" />
