@@ -124,6 +124,7 @@
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="YemekDuzenle.aspx" />
+    <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -231,6 +232,13 @@
     </Compile>
     <Compile Include="YemekDuzenle.aspx.designer.cs">
       <DependentUpon>YemekDuzenle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.designer.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yorumlar.aspx.cs">
       <DependentUpon>Yorumlar.aspx</DependentUpon>
