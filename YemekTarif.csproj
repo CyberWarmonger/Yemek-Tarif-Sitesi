@@ -123,8 +123,10 @@
     <Content Include="resimler\blog-ile-para-nasil-kazanilir.png" />
     <Content Include="resimler\chose.png" />
     <Content Include="resimler\images.png" />
+    <Content Include="resimler\indir %281%29.png" />
     <Content Include="resimler\indir.png" />
     <Content Include="resimler\soslu-tavuk-one-cikann.png" />
+    <Content Include="Tarifler.aspx" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
@@ -238,6 +240,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlsinif.cs" />
+    <Compile Include="Tarifler.aspx.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tarifler.aspx.designer.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TarifOner.aspx.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
