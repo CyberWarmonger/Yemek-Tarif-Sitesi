@@ -37,7 +37,7 @@
                             <asp:Label ID="Label2" runat="server" style="font-size: large; text-align: center;" Text='<%# Eval("MesajGonderen") %>'></asp:Label>
                         </td>
                         <td class="auto-style3">
-                            <asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/resimler/indir.png" style="text-align: left" Width="30px" />
+                           <a href="MesajDetay.aspx?Mesajid=<%#Eval("Mesajid") %>"><asp:Image ID="Image4" runat="server" Height="30px" ImageUrl="~/resimler/indir.png" style="text-align: left" Width="30px" /></a> 
                         </td>
                     </tr>
                 </table>
